@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Car</string>
+    <string name="full">" "</string>
+    <string name="what_is_your_number">What is your Number?</string>
+    <string name="what_is_your_name">What is your Name?</string>
+    <string name="what_is_your_car">What is your Car?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>
