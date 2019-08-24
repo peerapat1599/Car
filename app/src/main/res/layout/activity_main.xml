@@ -7,15 +7,16 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <TextView
-            android:text="Car1"
+            android:text="@string/empty"
             android:layout_width="90dp"
             android:layout_height="100dp"
             android:id="@+id/car1_text" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintEnd_toStartOf="@+id/car2_text" android:layout_marginEnd="8dp"
             app:layout_constraintHorizontal_bias="24" style="@style/whiteBox"
-            android:textSize="24dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
+            android:textSize="24dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+    />
     <TextView
-            android:text="Car2"
+            android:text="@string/empty"
             android:layout_width="90dp"
             android:layout_height="100dp"
             android:id="@+id/car2_text" app:layout_constraintStart_toEndOf="@+id/car1_text"
@@ -23,7 +24,7 @@
             style="@style/whiteBox"
             android:textSize="24dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
     <TextView
-            android:text="Car3"
+            android:text="@string/empty"
             android:layout_width="90dp"
             android:layout_height="100dp"
             android:id="@+id/car3_text" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
